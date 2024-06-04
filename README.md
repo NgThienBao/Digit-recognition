@@ -48,3 +48,4 @@ from keras.models import Model
 from keras.layers import Dense, Input, Conv2D, MaxPooling2D, Dropout, Flatten
 from keras import backend as k
 from matplotlib import pyplot as plt
+link GitHub https://github.com/NgThienBao/Digit-recognition
