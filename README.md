@@ -10,8 +10,22 @@ The goal of this project is to develop neural network models that can accurately
 - MNISTRecog
 - Multilayer Perceptron (MLP)
 
-## How to Run the Code
+## Objective
+The objective is to create a neural network for identifying numbers based on handwritten digits. For example, when the input to the network is an image of a handwritten number 8, the prediction should also be the digit 8.
 
+## Dataset
+The MNIST dataset, which is a collection of 70,000 handwritten digits, is used for training and validating the neural network. This dataset is often considered the "Hello World!" of deep learning.
+
+You can download the dataset from the Kaggle notebook: [Kaggle Notebook for Digit Recognizer](https://www.kaggle.com/code/anumit/digit-recognizer/input). 
+
+## Requirements
+- Python 3.x
+- numpy
+- pandas
+- keras
+- matplotlib
+
+## How to Run the Code
 ### 1. Install Kaggle API
 Ensure you have Python installed. If not, download and install Python from [python.org](https://www.python.org/).
 Install the Kaggle API by running the following command in your terminal:
@@ -47,5 +61,6 @@ pip install numpy pandas keras matplotlib
 ### 7. Train and Evaluate the Models
 Follow the steps in the notebook to preprocess the data, build the models, train them, and evaluate their performance.
 By RunAll button to see the result
+
 
 
